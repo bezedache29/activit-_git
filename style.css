@@ -22,6 +22,25 @@ body {
 	background: #F1F1F1;
 }
 
+/*** HEADER ***/
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+    height: 15vh;
+}
+
+nav ul li {
+    margin-left: 5%;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: grey;
+}
+
 /*** CONTENEUR ***/
 
 h1 {
